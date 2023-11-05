@@ -9,6 +9,8 @@ namespace Catalog.Application.Mappers
         public ProductMappingProfile() 
         {
             CreateMap<ProductBrand, BrandResponse>();
+            CreateMap<Product, ProductResponse>();
+            CreateMap<ProductType, TypesResponse>();
         }
     }
 }
