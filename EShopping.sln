@@ -7,13 +7,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{63
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{FB1F7163-782D-442D-A2BE-080763B0A11B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Catalog\Catalog.API\Catalog.API.csproj", "{12403569-0889-46A0-BA03-89A0C0700874}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.API", "Catalog\Catalog.API\Catalog.API.csproj", "{12403569-0889-46A0-BA03-89A0C0700874}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.Core", "Catalog\Catalog.Core\Catalog.Core.csproj", "{078F8007-7065-4834-8DA0-E1D243A7CA21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.Core", "Catalog\Catalog.Core\Catalog.Core.csproj", "{078F8007-7065-4834-8DA0-E1D243A7CA21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.Application", "Catalog\Catalog.Application\Catalog.Application.csproj", "{78BF21F4-4E5B-4875-88A6-C837BDC3E433}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.Application", "Catalog\Catalog.Application\Catalog.Application.csproj", "{78BF21F4-4E5B-4875-88A6-C837BDC3E433}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.Infrastructure", "Catalog\Catalog.Infrastructure\Catalog.Infrastructure.csproj", "{00ED4475-2465-408D-8CD6-700CD5F3605B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.Infrastructure", "Catalog\Catalog.Infrastructure\Catalog.Infrastructure.csproj", "{00ED4475-2465-408D-8CD6-700CD5F3605B}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{39C88EB0-0CEC-4249-A743-A5A718CCF6B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{00ED4475-2465-408D-8CD6-700CD5F3605B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00ED4475-2465-408D-8CD6-700CD5F3605B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00ED4475-2465-408D-8CD6-700CD5F3605B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39C88EB0-0CEC-4249-A743-A5A718CCF6B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39C88EB0-0CEC-4249-A743-A5A718CCF6B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39C88EB0-0CEC-4249-A743-A5A718CCF6B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39C88EB0-0CEC-4249-A743-A5A718CCF6B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
